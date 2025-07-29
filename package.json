@@ -1,0 +1,13 @@
+{
+  "name": "mi-formulario",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "node backend/index.js",
+    "client": "cd frontend && npm start",
+    "start": "concurrently \"npm run serve\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0" 
+  }
+}
